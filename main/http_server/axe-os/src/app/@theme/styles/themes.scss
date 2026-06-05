@@ -11,12 +11,12 @@ $nb-themes: nb-register-theme((
   card-bg: #161b22,
   card-text: #c9d1d9,
   sidebar-bg: #0d1117,
-  
+
   // Mobile Optimization
   layout-padding: 0.5rem,
   card-margin-bottom: 0.5rem,
   header-height: 4rem,
-  
+
   // Primary Colors (Blue based on logo)
   color-primary-100: #cae8ff,
   color-primary-200: #a0d7ff,
@@ -35,21 +35,36 @@ $nb-themes: nb-register-theme((
   color-danger-500: #da3633,
 
   // Responsive Typography
-  text-font-family: 'Open Sans', sans-serif,
-  text-heading-font-family: 'Open Sans', sans-serif,
+  text-font-family: 'Open Sans', sans-serif
 ), default, default);
 
 $nb-themes: nb-register-theme((
-  // Cosmic Theme Overrides for Nexus Miner
   header-bg: #0d1117,
   header-text: #58a6ff,
   layout-bg: #010409,
   card-bg: #161b22,
-  sidebar-bg: #0d1117,
+  card-text: #c9d1d9,
   
-  color-primary-500: #2188ff,
-  
-  // Mobile Fixes
   layout-padding: 0.5rem,
+  card-margin-bottom: 0.5rem,
   header-height: 4rem,
+
+  color-primary-default: #58a6ff,
+  color-primary-active: #2188ff,
+  color-primary-hover: #70beff
 ), cosmic, cosmic);
+
+$nb-themes: nb-register-theme((
+  header-height: 4rem,
+  layout-padding: 0.5rem,
+  color-primary-default: #58a6ff
+), corporate, corporate);
+
+$nb-themes: nb-register-theme((
+  header-bg: #0d1117,
+  layout-bg: #010409,
+  card-bg: #161b22,
+  header-height: 4rem,
+  layout-padding: 0.5rem,
+  color-primary-default: #58a6ff
+), dark, dark);
