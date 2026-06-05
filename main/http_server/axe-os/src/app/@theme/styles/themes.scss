@@ -28,14 +28,14 @@ $nb-themes: nb-register-theme((
   color-primary-800: #004494,
   color-primary-900: #002d5d,
 
-  // Success, Info, Warning, Danger (keep or adjust)
+  // Success, Info, Warning, Danger
   color-success-500: #238636,
   color-info-500: #1f6feb,
   color-warning-500: #d29922,
   color-danger-500: #da3633,
 
   // Responsive Typography
-  text-font-family: 'Open Sans', sans-serif
+  text-font-family: "'Open Sans', sans-serif",
 ), default, default);
 
 $nb-themes: nb-register-theme((
@@ -44,20 +44,17 @@ $nb-themes: nb-register-theme((
   layout-bg: #010409,
   card-bg: #161b22,
   card-text: #c9d1d9,
-  
-  layout-padding: 0.5rem,
-  card-margin-bottom: 0.5rem,
   header-height: 4rem,
-
+  layout-padding: 0.5rem,
   color-primary-default: #58a6ff,
   color-primary-active: #2188ff,
-  color-primary-hover: #70beff
+  color-primary-hover: #70beff,
 ), cosmic, cosmic);
 
 $nb-themes: nb-register-theme((
   header-height: 4rem,
   layout-padding: 0.5rem,
-  color-primary-default: #58a6ff
+  color-primary-default: #58a6ff,
 ), corporate, corporate);
 
 $nb-themes: nb-register-theme((
@@ -66,5 +63,5 @@ $nb-themes: nb-register-theme((
   card-bg: #161b22,
   header-height: 4rem,
   layout-padding: 0.5rem,
-  color-primary-default: #58a6ff
+  color-primary-default: #58a6ff,
 ), dark, dark);
